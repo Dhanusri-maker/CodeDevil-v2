@@ -26,7 +26,7 @@ function AIChat() {
 
     try {
       const res = await axios.post(
-        "http://codequestsri.duckdns.org:5001/api/ai/chat",
+        "http://codedevilsri.duckdns.org:5001/api/ai/chat",
         {
           category,
           question,
