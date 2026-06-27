@@ -55,7 +55,8 @@ Format exactly like this:
     return response;
   } catch (error) {
     console.error(error);
-    return "Error generating AI response.";
+    return ("Gemini Error:",error);
+    throw new error("failed to generate AI response");
   }
 }
 
